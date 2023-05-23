@@ -15,6 +15,7 @@ int main()
     ff15 = sum / 10 ;
     
     printf(" % f\n", ff15);
+    //Проверка на маленькость
     if (ff15 > 0) {
         printf(" Bolshe 0 \n");
     }
