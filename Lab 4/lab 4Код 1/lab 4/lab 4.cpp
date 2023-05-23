@@ -12,7 +12,12 @@ int main()
         printf(" % d\n", arr[i]);
         sum = sum + arr[i];
     }
-    sr = sum / 10 ;
+    ff15 = sum / 10 ;
+    
     printf(" % f\n", ff15);
+    if (ff15 > 0) {
+        printf(" Bolshe 0 \n");
+    }
+    else { printf(" Menshe 0 \n"); }
 }
 
