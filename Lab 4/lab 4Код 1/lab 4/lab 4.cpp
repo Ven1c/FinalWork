@@ -5,8 +5,8 @@ int main()
 {
     
     float ff15 = 0;
-    float sum =0;
-    int arr[10];
+    float sum =0; //сумма
+    int arr[10]; //массив
     for (int i = 0; i <= 9; i++) {
         arr[i] = 1+rand()%10;
         printf(" % d\n", arr[i]);
